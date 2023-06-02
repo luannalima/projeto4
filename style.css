@@ -1,0 +1,101 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #2C2B3D;
+    text-align: center;
+    margin: 71px;
+    margin-bottom: 0;
+
+
+}
+
+.page {
+    width: 1000px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+h1 span {
+    color: #00BFA6;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+    font-size: 16px;
+    width: 604px;
+    margin-top: 59px;
+}
+
+p span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1083px;
+    margin: 71px 99px 101px 99px;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 101px 89px 157px 99px;
+    width: 1092px;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover{
+    font-weight: bold;
+}
+
+footer {
+   margin: 157px 356px 23px 356px;
+
+}
+
+footer a:hover{
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 27px auto 23px;
+    
+}
+
+
+#line {
+    border: 1px solid #00BFA6;
+    width: 568px;
+    margin: 157px auto 27px;
+
+}
+
+#padlock {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
